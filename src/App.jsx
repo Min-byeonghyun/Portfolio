@@ -769,9 +769,6 @@ const App = () => {
                     2017.03 ~ 2022.03
                   </div>
                   <div className="text-2xl font-black">경복대학교 IT보안과</div>
-                  <div className="text-slate-400 mt-2 font-bold">
-                    전문학사 졸업
-                  </div>
                 </div>
               </div>
               <div>
