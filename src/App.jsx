@@ -108,6 +108,13 @@ const ImageSlider = ({ images }) => {
   );
 };
 
+const handleHeaderClick = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
+
 const App = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
@@ -429,7 +436,10 @@ const App = () => {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <span className="text-xl font-bold tracking-tight text-blue-600">
+          <span
+            onClick={handleHeaderClick}
+            className="text-xl font-bold tracking-tight text-blue-600 cursor-pointer"
+          >
             Min ByeongHyun
           </span>
           <div className="hidden md:flex gap-8 text-sm font-bold text-slate-500">
