@@ -803,9 +803,6 @@ const App = () => {
       {/* Footer */}
       <footer id="contact" className="py-24 px-6 text-center bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-black mb-12">
-            함께 성장하고 고민하고 싶습니다.
-          </h2>
           <div className="flex flex-wrap justify-center gap-6 mb-16 font-black text-slate-700">
             <div className="px-6 py-4 bg-slate-50 rounded-2xl flex items-center gap-3 border border-slate-100">
               <Mail className="text-blue-500" /> {profile.email}
